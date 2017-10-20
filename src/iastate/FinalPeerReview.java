@@ -16,4 +16,8 @@ public class FinalPeerReview {
 		this.modelObjectives = modelPurpose.getModelObjectives();
 	}
 	
+	public String getRemainingFactors() {
+		return remainingFactors;
+	}
+	
 }
