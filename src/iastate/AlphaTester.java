@@ -7,7 +7,8 @@ public class AlphaTester {
 	
 	private String factorData;
 	
-	public AlphaTester(DefiningTheUniverse universe1, CrossSectionalRelativeClusterAnalysis universe2) {
+	public AlphaTester(DefiningTheUniverse universe1, 
+			CrossSectionalRelativeClusterAnalysis universe2) {
 		
 		if(universe2.getRegionSectorDefinition() != null) {
 			this.regionSectorDefinitions = universe2.getRegionSectorDefinition();
